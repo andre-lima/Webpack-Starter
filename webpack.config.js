@@ -55,7 +55,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Webpack Boilerplate',
+      template: './src/index.html',
+      filename: 'index.html',
+      inject: 'body',
       favicon: './src/images/favicon.ico'
     }),
     new webpack.HotModuleReplacementPlugin(),
