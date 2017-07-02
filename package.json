@@ -1,0 +1,24 @@
+{
+  "name": "Webpack Babel Starter",
+  "version": "1.0.0",
+  "description": "Quickly start a project with webpack and babel already setup",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --watch",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andre Dantas",
+  "license": "MIT",
+  "dependencies": {
+    "redux": "^3.7.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
